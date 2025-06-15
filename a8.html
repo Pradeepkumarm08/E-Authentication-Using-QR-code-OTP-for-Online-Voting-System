@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        .header {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            height: 70px;
+        }
+        
+        .header .logo {
+            display: flex;
+            align-items: center;
+        }
+         .header img {
+            height: 40px;
+            margin-right: 10px;
+        }
+         .header .title {
+            font-size: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+          .nav {
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.5s;
+            margin-left: 20px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        .profile-container {
+            width: 50%;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0px 0px 10px gray;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+             
+        }
+
+
+
+    
+
+
+
+        .profile-images {
+            flex: 1;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            position: relative;
+        }
+        .profile-images img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+        .profile-images p {
+            margin-top: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+            left: -10px; /* Adjust text 1 inch (approx. 10px) to the left */
+        }
+        .info {
+            flex: 2;
+            padding-left: 20px;
+            text-align: left;
+        }
+        .info p {
+            font-size: 18px;
+            font-weight: normal;
+            margin: 10px 0;
+        }
+.profile-container h2 {
+            color: #007BFF;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="title">
+            <img src="logo.jpg" alt="Logo" style="border-radius: 50%;">
+            Election Commission of India
+        </div>
+   
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Result</a>
+            <a href="#">About Us</a>
+            <a href="#">Profile</a>
+        </div>
+    </div>
+
+    <div class="profile-container">
+        <div class="profile-images">
+            <img src="bjp1.jpg" alt="Profile Image">
+            <p>Narendra Modi</p>
+            <img src="bjp2.jpg" alt="Profile Image">
+            <p>BJP Flag</p>
+        </div>
+        <div class="info">
+            <h2>Candidate Profile</h2>
+            <hr>
+            <p><strong>Name:</strong> Narendra Modi</p>
+            <p><strong>Born:</strong> 17 September 1950 (Vadnagar, Bombay State)</p>
+            <p><strong>Age:</strong> 74</p>
+            <p><strong>Father:</strong> Damodardas Mulchand Modi</p>
+            <p><strong>Party Symbol:</strong> Lotus</p>
+            <p><strong>Party:</strong> <a href="https://www.bjp.org/"> Bharatiya Janata Party (BJP)</a></p>
+            <p><strong>Education: </strong>M.A Gujarat University</p>
+            <p><strong>Email:</strong> bjphqo@gmail.com</p>
+            <p><strong>Contact No:</strong> 044 24359600</p>
+            <p><strong>About Us:</strong> <a href="https://en.wikipedia.org/wiki/Narendra_Modi">Profile Full Details</a></p>
+        </div>
+    </div>
+
+ <footer style="background-color: #007bff; color: white; text-align: center; padding: 15px; position: relative; bottom: 0; width: 100%; font-size: 16px;">
+        © 2024 Election Portal | All Rights Reserved By Team 17 | <a href="#" style="color: yellow; text-decoration: none;">Privacy Policy</a>
+    </footer>
+</body>
+</html>
